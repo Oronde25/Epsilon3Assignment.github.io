@@ -1,0 +1,158 @@
+/*-----------------Header alignemnet----------------*/
+h1,h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: serif;
+  color: white;
+ 
+}
+
+/*----------------------About Us Section Adjustments----------------------------*/
+h3{
+  text-align:center;
+  font-size: larger;
+  font-weight:bolder;
+  font-family: serif;
+
+}
+#p2{
+  position: relative;
+  margin-top: -70px;
+  text-align: center;
+  font-size: large;
+}
+
+Body
+{
+  background-color: #F4FAFC;
+}
+
+
+/*-----------dropdown menu css--------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00B5E2;
+}
+
+li {
+  float:right;
+}
+
+.logo img{
+  margin-left: 10px;
+  
+}
+
+
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*----------Search bar---------------*/
+ul input[type=text]{
+  float: right;
+  border:none;
+  padding: 0px;
+  margin-top: -100px;
+  margin-right: 10px;
+  
+
+  font-size: 17px;
+}
+
+
+
+
+/* --------------Image Slider Sytling------------*/
+#slider /* # is reference to div id*/
+{
+  overflow:hidden;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 25s slider infinite;
+}
+#slider figure img{
+  float:left;
+  height: 390px;
+  width:10%;
+  object-fit: fill;
+  
+}
+
+@keyframes slider /*keyframes controls sliding animation*/
+{
+0%{left:0;}
+20%{left: 0;}
+25%{left:-100%;}
+45%{left:-100%;}
+50%{left:-200%;}
+70%{left:-200%;}
+75%{left:-300%;}
+95%{left:-300%;}
+100%{left:-400%}
+}
+
+
+/*----------------------- Section Spacing Adjustment----------------------*/
+#About{
+  margin:100px;
+  text-align: center;
+}
+
+footer{
+  background-color:#00B5E2;
+  color: white;
+  position:static;
+  left:0;
+  bottom:0;
+  width:100%;
+  text-align:center;
+  margin-top: 100px;
+
+   
+}
+
+
